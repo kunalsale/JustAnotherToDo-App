@@ -9,5 +9,18 @@
         android:id="@+id/toDoListFragment"
         android:name="com.ksale.justanothertodoapp.ToDoListFragment"
         android:label="fragment_to_do_list"
-        tools:layout="@layout/fragment_to_do_list" />
+        tools:layout="@layout/fragment_to_do_list" >
+        <action
+            android:id="@+id/action_toDoListFragment_to_addToDoFragment"
+            app:destination="@id/addToDoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addToDoFragment"
+        android:name="com.ksale.justanothertodoapp.AddToDoFragment"
+        android:label="fragment_add_to_do"
+        tools:layout="@layout/fragment_add_to_do" >
+        <action
+            android:id="@+id/action_addToDoFragment_to_toDoListFragment"
+            app:destination="@id/toDoListFragment" />
+    </fragment>
 </navigation>

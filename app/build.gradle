@@ -48,4 +48,7 @@ dependencies {
 
     def fragment_version = "1.3.6"
     debugImplementation "androidx.fragment:fragment-testing:$fragment_version"
+
+    def nav_version = "2.3.5"
+    androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
 }
