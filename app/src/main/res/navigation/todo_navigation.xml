@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/toDoListFragment"
         android:name="com.ksale.justanothertodoapp.ToDoListFragment"
-        android:label="fragment_to_do_list"
+        android:label="JustAnotherToDo"
         tools:layout="@layout/fragment_to_do_list" >
         <action
             android:id="@+id/action_toDoListFragment_to_addToDoFragment"
@@ -17,7 +17,7 @@
     <fragment
         android:id="@+id/addToDoFragment"
         android:name="com.ksale.justanothertodoapp.AddToDoFragment"
-        android:label="fragment_add_to_do"
+        android:label="Add To Do"
         tools:layout="@layout/fragment_add_to_do" >
         <action
             android:id="@+id/action_addToDoFragment_to_toDoListFragment"
